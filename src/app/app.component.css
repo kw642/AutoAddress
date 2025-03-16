@@ -1,0 +1,141 @@
+.container {
+  margin: 16px;
+  font-size: 14px;
+}
+
+.header-label {
+  display: block;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgba(99, 127, 161, 1);
+  width: 398px;
+  height: 24px;
+  gap: 8px;
+}
+
+.search-dropdown-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input-control {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  height: 52px;
+}
+
+.search-input {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid rgba(150, 169, 192, 1);
+  width: 100%;
+  padding-left: 10px;
+}
+
+.search-input:focus {
+  outline: none !important;
+  border-color: rgba(31, 107, 193, 1) !important;
+  box-shadow: none !important;
+}
+
+.search-input::placeholder {
+  color: rgba(152, 158, 164, 1);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.search-icon {
+  position: absolute;
+  right: 7%;
+  width: 24px;
+  height: 24px;
+  top: 52px;
+}
+
+.back-btn {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: none;
+  top: 4px;
+}
+
+.suggest-container {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  label {
+    color: rgba(112, 112, 112, 1);
+    padding-left: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0;
+    white-space: break-spaces;
+    width: 80%;
+    display: inline-grid;
+    margin-top: 4px;
+  }
+
+  .drilldown-label {
+    padding-left: 14px !important;
+  }
+}
+
+.filter-container {
+  padding-top: 10px;
+
+  img {
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+    top: 6px;
+    position: relative;
+  }
+
+  hr {
+    width: 95%;
+    margin-top: 10px;
+  }
+}
+
+.filter-label {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: rgba(115, 118, 130, 1);
+  margin-left: 6px;
+}
+
+.lookup-results {
+  border-radius: 6px;
+  max-height: 380px;
+  overflow-y: auto;
+  margin-top: 10px;
+  box-shadow: -3px 0 8px -3px rgba(0, 0, 0, 0.15),
+    1px 1px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.lookup-item {
+  padding: 8px 8px 8px 10px;
+  margin-right: 5px;
+  display: flex;
+}
+
+.suffix {
+  font-weight: 400;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.clear-btn {
+  position: relative;
+  top: 4px;
+  background: none;
+  border: none;
+}
